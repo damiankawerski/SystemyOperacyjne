@@ -9,4 +9,6 @@ add_executable(SO main.cpp
         Lab5.cpp
         Lab5.h
         Lab6.cpp
-        Lab6.h)
+        Lab6.h
+        Lab8.cpp
+        Lab8.h)
