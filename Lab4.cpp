@@ -2,8 +2,6 @@
 // Created by damian on 14.04.24.
 //
 
-#include "Lab4.h"
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

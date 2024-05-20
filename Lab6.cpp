@@ -2,7 +2,6 @@
 // Created by damian on 14.04.24.
 //
 
-#include "Lab6.h"
 
 #include <iostream>
 #include <sys/types.h>

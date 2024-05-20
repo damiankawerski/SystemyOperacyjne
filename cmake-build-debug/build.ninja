@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: SO
+# Project: LaboratoriumSystemy
 # Configurations: Debug
 # =============================================================================
 
@@ -39,62 +39,74 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/damian/GitHub/SO/cmake-build-debug/
+cmake_ninja_workdir = /home/damian/CLionProjects/LaboratoriumSystemy/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target SO
+# Object build statements for EXECUTABLE target LaboratoriumSystemy
 
 
 #############################################
-# Order-only phony target for SO
+# Order-only phony target for LaboratoriumSystemy
 
-build cmake_object_order_depends_target_SO: phony || CMakeFiles/SO.dir
+build cmake_object_order_depends_target_LaboratoriumSystemy: phony || CMakeFiles/LaboratoriumSystemy.dir
 
-build CMakeFiles/SO.dir/main.cpp.o: CXX_COMPILER__SO_unscanned_Debug /home/damian/GitHub/SO/main.cpp || cmake_object_order_depends_target_SO
-  DEP_FILE = CMakeFiles/SO.dir/main.cpp.o.d
+build CMakeFiles/LaboratoriumSystemy.dir/Lab10SEND.c.o: C_COMPILER__LaboratoriumSystemy_unscanned_Debug /home/damian/CLionProjects/LaboratoriumSystemy/Lab10SEND.c || cmake_object_order_depends_target_LaboratoriumSystemy
+  DEP_FILE = CMakeFiles/LaboratoriumSystemy.dir/Lab10SEND.c.o.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/SO.dir
-  OBJECT_FILE_DIR = CMakeFiles/SO.dir
+  OBJECT_DIR = CMakeFiles/LaboratoriumSystemy.dir
+  OBJECT_FILE_DIR = CMakeFiles/LaboratoriumSystemy.dir
 
-build CMakeFiles/SO.dir/Lab4.cpp.o: CXX_COMPILER__SO_unscanned_Debug /home/damian/GitHub/SO/Lab4.cpp || cmake_object_order_depends_target_SO
-  DEP_FILE = CMakeFiles/SO.dir/Lab4.cpp.o.d
+build CMakeFiles/LaboratoriumSystemy.dir/Lab10RECEIVE.c.o: C_COMPILER__LaboratoriumSystemy_unscanned_Debug /home/damian/CLionProjects/LaboratoriumSystemy/Lab10RECEIVE.c || cmake_object_order_depends_target_LaboratoriumSystemy
+  DEP_FILE = CMakeFiles/LaboratoriumSystemy.dir/Lab10RECEIVE.c.o.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/SO.dir
-  OBJECT_FILE_DIR = CMakeFiles/SO.dir
+  OBJECT_DIR = CMakeFiles/LaboratoriumSystemy.dir
+  OBJECT_FILE_DIR = CMakeFiles/LaboratoriumSystemy.dir
 
-build CMakeFiles/SO.dir/Lab5.cpp.o: CXX_COMPILER__SO_unscanned_Debug /home/damian/GitHub/SO/Lab5.cpp || cmake_object_order_depends_target_SO
-  DEP_FILE = CMakeFiles/SO.dir/Lab5.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/SO.dir
-  OBJECT_FILE_DIR = CMakeFiles/SO.dir
+build CMakeFiles/LaboratoriumSystemy.dir/Lab8.cpp.o: CXX_COMPILER__LaboratoriumSystemy_unscanned_Debug /home/damian/CLionProjects/LaboratoriumSystemy/Lab8.cpp || cmake_object_order_depends_target_LaboratoriumSystemy
+  DEP_FILE = CMakeFiles/LaboratoriumSystemy.dir/Lab8.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LaboratoriumSystemy.dir
+  OBJECT_FILE_DIR = CMakeFiles/LaboratoriumSystemy.dir
 
-build CMakeFiles/SO.dir/Lab6.cpp.o: CXX_COMPILER__SO_unscanned_Debug /home/damian/GitHub/SO/Lab6.cpp || cmake_object_order_depends_target_SO
-  DEP_FILE = CMakeFiles/SO.dir/Lab6.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/SO.dir
-  OBJECT_FILE_DIR = CMakeFiles/SO.dir
+build CMakeFiles/LaboratoriumSystemy.dir/Lab5.cpp.o: CXX_COMPILER__LaboratoriumSystemy_unscanned_Debug /home/damian/CLionProjects/LaboratoriumSystemy/Lab5.cpp || cmake_object_order_depends_target_LaboratoriumSystemy
+  DEP_FILE = CMakeFiles/LaboratoriumSystemy.dir/Lab5.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LaboratoriumSystemy.dir
+  OBJECT_FILE_DIR = CMakeFiles/LaboratoriumSystemy.dir
+
+build CMakeFiles/LaboratoriumSystemy.dir/Lab4.cpp.o: CXX_COMPILER__LaboratoriumSystemy_unscanned_Debug /home/damian/CLionProjects/LaboratoriumSystemy/Lab4.cpp || cmake_object_order_depends_target_LaboratoriumSystemy
+  DEP_FILE = CMakeFiles/LaboratoriumSystemy.dir/Lab4.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LaboratoriumSystemy.dir
+  OBJECT_FILE_DIR = CMakeFiles/LaboratoriumSystemy.dir
+
+build CMakeFiles/LaboratoriumSystemy.dir/Lab6.cpp.o: CXX_COMPILER__LaboratoriumSystemy_unscanned_Debug /home/damian/CLionProjects/LaboratoriumSystemy/Lab6.cpp || cmake_object_order_depends_target_LaboratoriumSystemy
+  DEP_FILE = CMakeFiles/LaboratoriumSystemy.dir/Lab6.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LaboratoriumSystemy.dir
+  OBJECT_FILE_DIR = CMakeFiles/LaboratoriumSystemy.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target SO
+# Link build statements for EXECUTABLE target LaboratoriumSystemy
 
 
 #############################################
-# Link the executable SO
+# Link the executable LaboratoriumSystemy
 
-build SO: CXX_EXECUTABLE_LINKER__SO_Debug CMakeFiles/SO.dir/main.cpp.o CMakeFiles/SO.dir/Lab4.cpp.o CMakeFiles/SO.dir/Lab5.cpp.o CMakeFiles/SO.dir/Lab6.cpp.o
+build LaboratoriumSystemy: CXX_EXECUTABLE_LINKER__LaboratoriumSystemy_Debug CMakeFiles/LaboratoriumSystemy.dir/Lab10SEND.c.o CMakeFiles/LaboratoriumSystemy.dir/Lab10RECEIVE.c.o CMakeFiles/LaboratoriumSystemy.dir/Lab8.cpp.o CMakeFiles/LaboratoriumSystemy.dir/Lab5.cpp.o CMakeFiles/LaboratoriumSystemy.dir/Lab4.cpp.o CMakeFiles/LaboratoriumSystemy.dir/Lab6.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/SO.dir
+  OBJECT_DIR = CMakeFiles/LaboratoriumSystemy.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = SO
-  TARGET_PDB = SO.dbg
+  TARGET_FILE = LaboratoriumSystemy
+  TARGET_PDB = LaboratoriumSystemy.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/damian/GitHub/SO/cmake-build-debug && /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/damian/CLionProjects/LaboratoriumSystemy/cmake-build-debug && /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -105,7 +117,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/damian/GitHub/SO/cmake-build-debug && /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/damian/GitHub/SO -B/home/damian/GitHub/SO/cmake-build-debug
+  COMMAND = cd /home/damian/CLionProjects/LaboratoriumSystemy/cmake-build-debug && /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/damian/CLionProjects/LaboratoriumSystemy -B/home/damian/CLionProjects/LaboratoriumSystemy/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -121,9 +133,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/damian/GitHub/SO/cmake-build-debug
+# Folder: /home/damian/CLionProjects/LaboratoriumSystemy/cmake-build-debug
 
-build all: phony SO
+build all: phony LaboratoriumSystemy
 
 # =============================================================================
 # Built-in targets
@@ -132,14 +144,14 @@ build all: phony SO
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /home/damian/GitHub/SO/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /home/damian/CLionProjects/LaboratoriumSystemy/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /home/damian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /home/damian/GitHub/SO/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /home/damian/CLionProjects/LaboratoriumSystemy/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################
