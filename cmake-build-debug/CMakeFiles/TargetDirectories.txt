@@ -1,3 +1,3 @@
-/home/damian/Kolos/cmake-build-debug/CMakeFiles/Kolos.dir
-/home/damian/Kolos/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/damian/Kolos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/UserFiles/GIT/SystemyOperacyjne/cmake-build-debug/CMakeFiles/Kolos.dir
+C:/UserFiles/GIT/SystemyOperacyjne/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/UserFiles/GIT/SystemyOperacyjne/cmake-build-debug/CMakeFiles/rebuild_cache.dir

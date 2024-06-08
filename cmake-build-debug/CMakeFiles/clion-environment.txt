@@ -1,4 +1,5 @@
-ToolSet: 1.0 (local)Ninja: 1.11.1@/home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/ninja/linux/x64/ninja
+ToolSet: 11.0 w64 (local)@C:\Users\Damian\AppData\Local\Programs\CLion\bin\mingw
+Ninja: 1.11.1@C:\Users\Damian\AppData\Local\Programs\CLion\bin\ninja\win\x64\ninja.exe
 Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=/home/damian/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229/bin/ninja/linux/x64/ninja
+Options:-DCMAKE_MAKE_PROGRAM=C:/Users/Damian/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe
