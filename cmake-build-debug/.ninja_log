@@ -1,5 +1,4 @@
 # ninja log v5
-0	9	1716218288562205918	build.ninja	7ac36f52e23d6bd6
-11	61	1716217117302607704	LaboratoriumSystemy	8b233940abbe6c05
-0	11	1716217117252607720	CMakeFiles/LaboratoriumSystemy.dir/Lab10.c.o	1abdc3c9667b3cbf
-0	9	1716214245683586965	CMakeFiles/LaboratoriumSystemy.dir/main.c.o	f6834d6911b5a02c
+0	5	1717770776058625796	CMakeFiles/Kolos.dir/Watki.c.o	1c3a373d360ff942
+17	65	1717770931148579383	Kolos	5aebbe6b02ae1f90
+1	17	1717770931098579398	CMakeFiles/Kolos.dir/KolejkaKomunikaty.c.o	4a7d131b06486b60

@@ -130,8 +130,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/damian/CLionProjects/LaboratoriumSystemy/cmake-build-debug",
-		"source" : "/home/damian/CLionProjects/LaboratoriumSystemy"
+		"build" : "/home/damian/Kolos/cmake-build-debug",
+		"source" : "/home/damian/Kolos"
 	},
 	"version" : 
 	{
